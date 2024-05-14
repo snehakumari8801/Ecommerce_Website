@@ -16,9 +16,9 @@ function ProductDisplay(props) {
             <img src={product.image} alt=''/>
             <img src={product.image} alt=''/>
           </div>
-          <div className='productdisplay-image'>
-            <img className='productdisplay-main-img' src={product.image}/>
-          </div>
+          <div className='productdisplay-img'>
+         <img className='productdisplay-main-img' src={product.image}/>
+         </div>
         </div>
       <div className='productdisplay-right'>
          <h1>{product.name}</h1>

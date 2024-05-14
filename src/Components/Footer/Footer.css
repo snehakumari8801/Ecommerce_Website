@@ -60,3 +60,13 @@
     border-radius: 10px;
     background: #cfcfcf;
 }
+
+@media only screen and (max-width: 480px) {
+   .footer{
+    transform: scale(0.7);
+   }
+   .footer-links{
+    gap: 10px;
+    margin-left: -40px;
+   }
+  }

@@ -79,3 +79,48 @@
     background: red;
     color: white;
 }
+
+@media only screen and (max-width: 480px) {
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 2px;
+    }
+    .nav-menu{
+        display: flex;
+        gap: 25px;
+        
+    }
+    .nav-menu li{
+        padding: auto;
+    }
+    .nav-login-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .nav-cart-count{
+        margin-left: -63%;
+        padding-top: 1px;
+    }
+    .nav-login-cart button{
+        width: 100px;
+        height: 37px;
+        outline: none;
+        border-radius: 75px;
+        border: 1px solid #7a7a7a;
+        color: #515151;
+        font-size: 15px;
+        font-weight: 500;
+        background: white;
+    }
+    .navbar-logo p{
+        color: #171717;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+  }

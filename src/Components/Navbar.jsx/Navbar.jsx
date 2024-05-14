@@ -36,8 +36,10 @@ function Navbar() {
 
     <div className='nav-login-cart'>
         <Link to='loginsignup'> <button>Login</button> </Link>
+        
         <Link to='cart'><img src={cart_icon}/></Link>
         <div className='nav-cart-count'>{getTotalCartItems()}</div>
+        
     </div>
     </div>
   )

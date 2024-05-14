@@ -30,3 +30,10 @@
     padding: 48px;
     padding-bottom: 70px;
 }
+
+@media only screen and (max-width: 480px) {
+    .descriptionbox{
+        margin: 80px 25px;
+    }
+  }
+  

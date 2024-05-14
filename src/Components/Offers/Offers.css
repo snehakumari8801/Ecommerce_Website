@@ -47,3 +47,31 @@
     justify-content: flex-end;
     padding-top: 40px;
 }
+
+@media only screen and (max-width: 480px) {
+   .offers{
+    display: flex;
+    flex-direction: column;
+    margin-left: -22%;
+    height: 1000px;
+   }
+   .offers-left{
+    display: flex;
+   padding-top: -200%;
+   
+   }
+
+   .offers-left button{
+    width: 150px;
+    height: 50px;
+   }
+
+   .offers-left h1{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+   
+    
+}
+   
+  }

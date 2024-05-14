@@ -57,7 +57,7 @@ function CartItems() {
                 <h3>${getTotalCartAmount()}</h3>
               </div>
             </div>
-            <button>PROCEED TO CHECKOUT</button>
+            <button className='btn2'>PROCEED TO CHECKOUT</button>
           </div>
           <div className='cartitems-promocode'>
             <p>If you have promocode , Enter it here</p>

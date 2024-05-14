@@ -63,3 +63,36 @@
 .hero-right img{
   height: 550px;
 }
+
+@media only screen and (max-width:480px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .hero-left{
+        display: flex;
+        margin-left: -120px;
+        color: #090909;
+        margin-top: 5%;
+       
+    }
+    .hero-left h2{
+        font-size: 20px;
+        font-weight: 600;
+        color: #090909;
+       
+    }
+    .hero-left p{
+        color: #171717;
+        font-size: 40px;
+        font-weight: 700;
+        padding-left: -10%;
+       
+    }
+   
+    .hero-latest-btn{
+        transform: scale(0.7);
+        margin-left: -20%;
+    }
+}
